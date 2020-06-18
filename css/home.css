@@ -935,6 +935,11 @@ button {
           transform: translateX(-10%);
 }
 
+[dir="ltr"] .mega-menu ul li:hover {
+  -webkit-transform: translateX(10%);
+          transform: translateX(10%);
+}
+
 .mega-menu .mega-img {
   max-width: 415px;
 }

@@ -1771,6 +1771,14 @@ button {
   }
   .nav-bar {
     position: relative;
+    background-color: #fff;
+  }
+  .nav-bar .icons .icon-container {
+    color: #000;
+  }
+  .nav-bar .logo-container .logo img {
+    -webkit-filter: unset;
+            filter: unset;
   }
   .nav-bar .zx-container {
     -webkit-box-pack: center;
@@ -2022,9 +2030,9 @@ button {
     content: "";
   }
   .fixed-menu .main-list > li {
-    font-family: ar-reg;
+    font-family: ar-md;
     font-size: 16px;
-    color: #444;
+    color: #333;
     margin: 10px 0;
   }
   .fixed-menu .main-list > li a {
@@ -2069,9 +2077,9 @@ button {
     content: "";
   }
   .fixed-menu .sub-list li {
-    font-family: ar-reg;
+    font-family: ar-md;
     font-size: 16px;
-    color: #444;
+    color: #333;
     margin: 8px 0;
   }
   .fixed-menu .sub-list li a {
@@ -2084,9 +2092,9 @@ button {
     display: none;
   }
   .fixed-menu .sub-list-copy li {
-    font-family: reg;
+    font-family: ar-md;
     font-size: 15px;
-    color: #444;
+    color: #333;
   }
   .fixed-menu .sub-list-copy li a {
     font-family: inherit;
@@ -2142,6 +2150,9 @@ button {
   }
   .cats .overlay .inner button {
     padding: 5px 20px;
+  }
+  .sp-offers .sp-offers-header h3 {
+    font-size: 24px;
   }
   .sp-offers {
     margin: 50px 0 70px 0;

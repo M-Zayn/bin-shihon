@@ -1991,7 +1991,8 @@ button {
     right: 15px;
   }
   .fixed-menu .main-list {
-    margin: 35px 0px;
+    text-transform: uppercase;
+    margin: 45px 0px;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     -webkit-transition: all .5s ease-in-out;
@@ -2045,7 +2046,7 @@ button {
             transform: translateX(0%);
   }
   .fixed-menu .sub-list {
-    padding: 5px 10px;
+    padding: 5px 5px;
     display: none;
   }
   .fixed-menu .sub-list .slide-two {
@@ -2088,7 +2089,7 @@ button {
     color: inherit;
   }
   .fixed-menu .sub-list-copy {
-    padding: 5px 15px;
+    padding: 5px 5px;
     display: none;
   }
   .fixed-menu .sub-list-copy li {
